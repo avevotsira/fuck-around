@@ -1,8 +1,7 @@
 name: Publish Package
 
-on:
-  workflow_dispatch
-    
+on: workflow_dispatch
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,7 +11,7 @@ jobs:
       - uses: pnpm/action-setup@v2
         name: Setup pnpm
         with:
-          version: 8.6.0
+          version: 9.11.0
           run_install: false
 
       - uses: actions/setup-node@v3
@@ -34,3 +33,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+
