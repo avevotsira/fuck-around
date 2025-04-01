@@ -5,13 +5,13 @@ A minimal implementation of the Result type in TypeScript. Allowing you to handl
 ### Installation
 
 ```bash
-npm install @avearistov/fuck-around
+npm install @avearistov/fa-fo
 
-yarn add @avearistov/fuck-around
+yarn add @avearistov/fa-fo
 
-pnpm add @avearistov/fuck-around
+pnpm add @avearistov/fa-fo
 
-bun add @avearistov/fuck-around
+bun add @avearistov/fa-fo
 ```
 
 ### Docs

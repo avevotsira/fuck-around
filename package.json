@@ -1,12 +1,12 @@
 {
-  "name": "@avearistov/fuck-around",
+  "name": "@avearistov/fa-fo",
   "private": false,
   "version": "2.0.0",
   "module": "dist/index.cjs",
   "typings": "dist/index.d.ts",
   "main": "dist/index.js",
   "type": "module",
-  "description": "A TypeScript Result type for when you want to fuck around and find out",
+  "description": "A TypeScript Result type for when you want to f around and find out",
   "author": "Ave Aristov <chantepkik@gmail.com> (https://www.avearistov.com/)",
   "license": "MIT",
   "repository": {
